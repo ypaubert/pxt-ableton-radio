@@ -12,8 +12,8 @@ basic.forever(function () {
 //% color="#AA278D" weight=100
 namespace AbletonRadio {
     //% block
-    export function GroupeRadioAbleton() {
-        radio.setGroup(1)
+    export function GroupeRadioAbleton(groupe: number) {
+        radio.setGroup(groupe)
     }
 
     //% block
