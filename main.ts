@@ -1,7 +1,8 @@
 namespace AbletonRadio {
     //% block
-    export function GroupeRadioAbleton(groupe: number) {
+    export function startRadioAbleton(groupe: number) {
         radio.setGroup(groupe)
+        midi.useRawSerial()
     }
 
     //% block
